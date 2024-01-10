@@ -1,0 +1,14 @@
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\Conversion\bin\Debug\net7.0\Conversion.exe
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\Conversion\bin\Debug\net7.0\Conversion.deps.json
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\Conversion\bin\Debug\net7.0\Conversion.runtimeconfig.json
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\Conversion\bin\Debug\net7.0\Conversion.dll
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\Conversion\bin\Debug\net7.0\Conversion.pdb
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\Conversion\obj\Debug\net7.0\Conversion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\Conversion\obj\Debug\net7.0\Conversion.AssemblyInfoInputs.cache
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\Conversion\obj\Debug\net7.0\Conversion.AssemblyInfo.cs
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\Conversion\obj\Debug\net7.0\Conversion.csproj.CoreCompileInputs.cache
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\Conversion\obj\Debug\net7.0\Conversion.dll
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\Conversion\obj\Debug\net7.0\refint\Conversion.dll
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\Conversion\obj\Debug\net7.0\Conversion.pdb
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\Conversion\obj\Debug\net7.0\Conversion.genruntimeconfig.cache
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\Conversion\obj\Debug\net7.0\ref\Conversion.dll
