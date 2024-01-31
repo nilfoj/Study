@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header></header>
+
+
+    <main>
+        <h2>Midias - Imagens</h2>
+        <p>
+            O uso da tag <strong>picture</strong> possibilita trabalhar com imagens, usamos a tag <strong>soucer
+                media=(max-width: 000px)</strong> para definir os tamanhos máximos e minimos, podemos adicionar 50px
+            para evitar barras de rolagem na página.
+        </p>
+
+        <picture>
+            <source media="(max-width: 650px)" srcset="img/Width_600.png" type="image/png">
+            <source media="(max-width: 890px)" srcset="img/Medium_600_width_840.png" type="image/png">
+            <source media="(max-width: 1250px)" srcset="img/Large_1200_width_1600.png" type="image/png">
+            <img src="img/Expanded_840_width_1200.png" alt="Imagem descritiva">
+        </picture>
+
+        
+        <!--
+            <picture>
+                <source srcset="img/Width_600.png 600w, img/Medium_600_width_840.png 840w, img/Large_1200_width_1600.png 1600w" sizes="(max-width: 650px) 100vw, (max-width: 890px) 80vw, 100vw">
+                <img src="img/Expanded_840_width_1200.png" alt="Imagem descritiva">
+            </picture>
+        -->
+
+
+        <h2>Midias - Audio</h2>
+        <p>Reprodução de áudios</p>
+        <p>Opções > preload = "metadata" || preload="none" || preload="auto" ... Muted || Autoplay || Controls || Loop</p>
+
+        <audio preload="metadata" controls>
+            <source src="audio/audio_mixkit.mp3" type="audio/mpeg">
+            <source src="audio/audio_mixkit.wav" type="audio/wav">
+        </audio>
+
+
+        <h3>Midias - Videos</h3>
+        <p>Reprodução de videos</p>
+        <p>Exitem varios formatos (OGV || mp4 ) o uso da tag poster altera a imagem da capa do video!</p>
+
+        <video width="300" poster="img/Width_600.png" controls>
+            <source src="video/Mario_game.mp4">
+        </video>
+
+    </main>
+
+
+    <footer></footer>
+
+
+
+</body>
+
+</html>
