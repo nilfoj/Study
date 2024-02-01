@@ -8,6 +8,7 @@
 
 html{
     height: 500vh;
+    background-color: #000;
 }
 
 
@@ -24,9 +25,9 @@ html{
 
 .header{
     width: 100%;
-    padding: 48px 4%;
-    background-color: yellow;
+    padding: 60px 4%;
     position:fixed;
+    background-color: yellow;
 }
 
 
@@ -66,17 +67,18 @@ html{
 
 
 .banner {
-    height: auto;
+    height: 20vh;
     background-position: 100% 0;
     background-size: cover;
-    }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .banner h1 {
     font-size: 4em;
     position: absolute;
-    top: 200%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Centralizar horizontal e verticalmente */
   }
   
 
