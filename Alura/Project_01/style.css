@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.title-html {
+    color: #FAB743;
+}
+
+
+.title-css {
+    color: #4746A4;
+}
+
+
+.title-pixel {
+    color: #E31293;
+}
+
+
+.main-apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.section-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 591px;
+}
+
+.h1-titulo{
+    font-size: 36px;
+
+}
+
+.p-paragrafo {
+    font-size: 16px;
+}
+
+.div-botao{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-botao {
+    background-color: #4746A4;
+    color: #fff;
+    width: 116px;
+    padding: 10px;
+    border-radius: 4px;
+}
