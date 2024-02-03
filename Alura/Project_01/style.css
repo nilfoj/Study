@@ -52,7 +52,7 @@ body {
 }
 
 .div-botao{
-    display: flex;
+    display: block;
     justify-content: space-between;
 }
 
@@ -61,5 +61,12 @@ body {
     color: #fff;
     width: 116px;
     padding: 10px;
+    margin: 0px 10px 0px 0px;
     border-radius: 4px;
+}
+
+.button-botao:hover {
+    background-color: #FAB743;
+    color: #fff;
+    cursor: pointer;
 }
