@@ -12,7 +12,8 @@ namespace Exercicio
             //003Soma();
             //005PredSecce();
             //006DTRaiz();
-
+            //007MAritmetica
+            //008CMedidas();
         }
 
         static void Hello()
@@ -60,6 +61,37 @@ namespace Exercicio
             string formato = valor02.ToString("0.00");
 
             Console.WriteLine($"A raiz quadrada de {valor01} é igual a {formato}");
+        }
+
+        static void MAritmetica()
+        {
+
+            Console.Clear();
+            Console.Write("Primeira nota do Aluno: ");
+            float pnota = float.Parse(Console.ReadLine());
+
+            Console.Write("Segunda nota do Aluno: ");
+            float snota = float.Parse(Console.ReadLine());
+
+            float result = (pnota + snota) / 2;
+
+            Console.WriteLine($"A média entra {pnota} e {snota} é igual a {result.ToString("0.0")}");
+        }
+
+        static void CMedidas()
+        {
+            
+            Console.Clear();
+            Console.Write("Uma distância em metros: ");
+            float mmedidas = float.Parse(Console.ReadLine());
+
+            Console.WriteLine($"A medida {mmedidas} em Km é {mmedidas / 1000}km");
+            Console.WriteLine($"A medida {mmedidas} em hm é {mmedidas / 100}hm");
+            Console.WriteLine($"A medida {mmedidas} em dam é {mmedidas / 10}dam");
+            Console.WriteLine($"A medida {mmedidas} em dm é {mmedidas * 10}dm");
+            Console.WriteLine($"A medida {mmedidas} em cm é {mmedidas * 100}cm");
+            Console.WriteLine($"A medida {mmedidas} em mm é {mmedidas * 1000}mm");
+
         }
 
     }
