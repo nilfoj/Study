@@ -14,6 +14,7 @@ namespace Exercicio
             //006DTRaiz();
             //007MAritmetica
             //008CMedidas();
+            //009Tabuada();
         }
 
         static void Hello()
@@ -92,6 +93,29 @@ namespace Exercicio
             Console.WriteLine($"A medida {mmedidas} em cm é {mmedidas * 100}cm");
             Console.WriteLine($"A medida {mmedidas} em mm é {mmedidas * 1000}mm");
 
+        }
+
+        static void Tabuada()
+        {
+            Console.Clear();
+            Console.Write("Digite um número para vê sua tabuada: ");
+            int num = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("-----------------");
+
+            Console.WriteLine($"{num} x 0 = {num * 0}");
+            Console.WriteLine($"{num} x 1 = {num * 1}");
+            Console.WriteLine($"{num} x 2 = {num * 2}");
+            Console.WriteLine($"{num} x 3 = {num * 3}");
+            Console.WriteLine($"{num} x 4 = {num * 4}");
+            Console.WriteLine($"{num} x 5 = {num * 5}");
+            Console.WriteLine($"{num} x 6 = {num * 6}");
+            Console.WriteLine($"{num} x 7 = {num * 7}");
+            Console.WriteLine($"{num} x 8 = {num * 8}");
+            Console.WriteLine($"{num} x 9 = {num * 9}");
+            Console.WriteLine($"{num} x 10 = {num * 10}");
+
+            Console.WriteLine("-----------------");
         }
 
     }
