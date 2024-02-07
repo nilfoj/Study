@@ -8,13 +8,19 @@ a:visited {
 
 a:hover {
     color: blue;
-    text-decoration: overline;
+    text-decoration: underline;
 }
 
 a:active {
     color: greenyellow;
 }
 
+
+a::before {
+    content: "[Antes]";
+    
+}
+
 a::after {
-    content: "[link]";
+    content: "[Depois]";
 }

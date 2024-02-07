@@ -1,14 +1,14 @@
-.div01 {
-    background-color: blueviolet;
-}
-
-.div02 {
+.p-exemplo {
     background-color: yellow;
+    text-align: center;
 }
 
-.div03 {
-    background-color: black;
+button {
+    
+    display: flex;
+    margin: 0 auto;
+    background-color: yellow;
+    
 }
-
 
 
