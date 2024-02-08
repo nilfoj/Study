@@ -16,6 +16,7 @@ namespace Exercicio
             //008CMedidas();
             //009Tabuada();
             //010CMoedas();
+            //011PParede();
         }
 
         static void Hello()
@@ -127,9 +128,30 @@ namespace Exercicio
             float real = float.Parse(Console.ReadLine());
 
             double result = (real / 4.97);
-            Console.WriteLine($" Com {x} você po comprar U${result.ToString("0.00")}");
+            Console.WriteLine($" Com {real} você po comprar U${result.ToString("0.00")}");
 
         }
+
+        static void PParede()
+        {
+            Console.Clear();
+            Console.Write("Largura da Parede: ");
+            float largura = float.Parse(Console.ReadLine());
+
+            Console.Write("Altura da Parede: ");
+            float altura = float.Parse(Console.ReadLine());
+
+            Console.WriteLine($"Sua parede tem a dimensão de {largura} x {altura} e sua área é de {(largura * altura).ToString("0.000")}m²");
+            Console.WriteLine($"Para pintar essa parede, você precisará de {((largura * altura) / 2).ToString("0.0000")}l de tinta");
+
+
+
+        }
+
+
+
+
+
     }
 }
 
