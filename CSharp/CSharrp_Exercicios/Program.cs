@@ -15,6 +15,7 @@ namespace Exercicio
             //007MAritmetica
             //008CMedidas();
             //009Tabuada();
+            //010CMoedas();
         }
 
         static void Hello()
@@ -118,6 +119,17 @@ namespace Exercicio
             Console.WriteLine("-----------------");
         }
 
+        static void CMoedas()
+        {
+
+            Console.Clear();
+            Console.Write("Quando você tem na carteira? R$ ");
+            float real = float.Parse(Console.ReadLine());
+
+            double result = (real / 4.97);
+            Console.WriteLine($" Com {x} você po comprar U${result.ToString("0.00")}");
+
+        }
     }
 }
 
