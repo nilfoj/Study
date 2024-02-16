@@ -17,6 +17,9 @@ namespace Exercicio
             //009Tabuada();
             //010CMoedas();
             //011PParede();
+            //012CDesconto();
+            //013RSalarial();
+            CTemperatura();
         }
 
         static void Hello()
@@ -148,10 +151,39 @@ namespace Exercicio
 
         }
 
+        static void CDesconto()
+        {
+            Console.Clear();
+            Console.Write("Qual é o preço do produto? R$ ");
+            float ventrada = float.Parse(Console.ReadLine());
+
+            Console.WriteLine($"O produto que custava R${ventrada}, na promoção com o desconto de 5% vai custar R$ R${(ventrada - ((ventrada * 5) / 100)).ToString("0.00")}.");
+            Console.ReadKey();
+        }
+
+        static void RSalarial()
+        {
+            Console.Clear();
+            Console.Write("Qual salário do funcionário? R$");
+            float salario = float.Parse(Console.ReadLine());
+
+            Console.WriteLine($"Um funcionário que ganhva R${salario}, com 15% de aumento, passa a receber R$ R${( salario + ((salario * 15) / 100)).ToString("0.00")}.");
+            Console.ReadKey();
 
 
 
 
+
+        }
+
+        static void CTemperatura()
+        {
+            Console.Clear();
+            Console.Write("Informe a temperatura em °C: ");
+            float temperatura = float.Parse(Console.ReadLine());
+
+            Console.WriteLine($"A temperatura de {temperatura}°C corresponde a {((temperatura * 9) / 5) + 32}");
+        }
     }
 }
 

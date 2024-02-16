@@ -1,1 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Londrina+Shadow&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --color-header-nav: #EDD6FE;
+    --color-header-nav-li: #4746A4;
+    --color-header-nav-a: #D7AFF6;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+header  label{
+    display: inline-block;
+    margin-left: 1.25rem;
+    line-height: 7rem;
+}
+
+header nav {
+    background-color: var(--color-header-nav);
+    height: 5.5rem;
+    width: 100%;
+}
+
+header nav ul {
+    float: right;
+    margin-right: 1.25rem;
+}
+
+header nav ul li {
+    display: inline-block;
+    line-height: 5em;
+    margin: 0 0.5em;
+}
+
+header nav ul li a {
+    color: var(--color-header-nav-li);
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover{
+    background: var(--color-header-nav-a);
+    padding: 0.5em;
+    transition: .5ms;
+}
+
+.checkbtn {
+    float: right;
+    line-height: 2.5rem;
+    margin: 1rem;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width:858px) {
+
+    .logo {
+        padding-left: 1rem;   
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
+}
+
+@media (max-width:685px) {
+
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: var(--color-header-nav-a);
+        top: 5rem;
+        text-align: center;
+        left: -100%;
+        transition: all .5s
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 1.5em;
+    }
+
+    a:hover {
+        background: none;
+        color: #EDD6FE;
+    }
+
+    #check:checked ~ ul { 
+        left: 0;
+    }
+}
