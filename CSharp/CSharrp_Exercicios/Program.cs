@@ -20,7 +20,8 @@ namespace Exercicio
             //012CDesconto();
             //013RSalarial();
             //14CTemperatura();
-            ACarros();
+            //015ACarros();
+            QNumero();
         }
 
         static void Hello()
@@ -201,7 +202,19 @@ namespace Exercicio
 
         }
 
-        static void 
+        static void QNumero()
+        {
+            Console.Clear();
+            Console.Write("Digite um valor: ");
+            float numero = float.Parse(Console.ReadLine());
+
+            Console.WriteLine($"O valor digitado foi {numero} e a sua porção inteira é {((int)numero)}.");
+            Console.WriteLine($"O valor digitado foi {numero} e a sua porção inteira é {numero.ToString("0")}.");
+            Console.WriteLine($"O valor digitado foi {numero} e a sua porção inteira é {(int)Math.Floor(numero)}.");
+            Console.WriteLine($"O valor digitado foi {numero} e a sua porção inteira é {(int)Math.Truncate(numero)}.");
+
+            Console.ReadKey();
+        }
     }
 }
 
