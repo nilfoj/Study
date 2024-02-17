@@ -19,7 +19,8 @@ namespace Exercicio
             //011PParede();
             //012CDesconto();
             //013RSalarial();
-            CTemperatura();
+            //14CTemperatura();
+            ACarros();
         }
 
         static void Hello()
@@ -184,6 +185,23 @@ namespace Exercicio
 
             Console.WriteLine($"A temperatura de {temperatura}°C corresponde a {((temperatura * 9) / 5) + 32}");
         }
+
+        static void ACarros()
+        {
+            Console.Clear();
+            Console.Write("Quantos dias alugados? ");
+            int dalugados = int.Parse(Console.ReadLine());
+
+            Console.Write("Quantos Km rodados? ");
+            int krodados = int.Parse(Console.ReadLine());
+
+            float resultado = (dalugados * 60) + (krodados * 0.15f);
+
+            Console.WriteLine($"O total a pagar é de R${resultado.ToString("0.00")}");
+
+        }
+
+        static void 
     }
 }
 
