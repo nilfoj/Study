@@ -5,6 +5,9 @@
     --color-header-nav: #EDD6FE;
     --color-header-nav-li: #4746A4;
     --color-header-nav-a: #D7AFF6;
+    --color-main-h1-first: #E97251;
+    --color-main-h1-second: #498FC8;
+    --color-main-h1-three: #4746A4;
 
 }
 
@@ -65,6 +68,48 @@ header nav ul li a:hover{
 #check {
     display: none;
 }
+
+
+main {
+    margin: auto;
+    width: 50%;
+}
+
+
+h1{
+    padding: 2em 1em;
+    font-size: 1.7em;
+}
+
+.h1_html {
+    color: var(--color-main-h1-first);
+}
+
+.h1_css {
+    color: var(--color-main-h1-second);
+}
+
+.h1_ideiasempixels {
+    color: var(--color-main-h1-three);
+}
+
+
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
+
+.flex-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    background-color: var(--color-header-nav);
+    gap: 2rem;
+}
+
 
 @media (max-width:858px) {
 
