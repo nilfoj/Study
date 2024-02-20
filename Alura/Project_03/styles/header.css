@@ -1,0 +1,18 @@
+.burger-menu{
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/bars-solid.svg");
+    display: inline-block;
+}
+
+.main-header {
+    background-color: var(--br-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}

@@ -1,12 +1,19 @@
+@import url("styles/header.css");
+
 :root {
     
     --br-color:#fff;
 
+    /*
+    
     --primary-color-1:;
     --primary-color-2:;
 
     --secundary-color-1:;
     --secundary-color-2:;
+    
+    */
+
 }
 
 
