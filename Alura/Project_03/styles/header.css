@@ -1,18 +1,29 @@
-.burger-menu{
-    width: 24px;
-    height: 24px;
-    background-image: url("../img/bars-solid.svg");
-    display: inline-block;
-}
-
 .main-header {
     background-color: var(--br-color);
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
+
 
 .container {
     display: flex;
     align-items: center;
 }
+
+
+.burger-menu {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.5rem;
+    background-image: url(../img/bars-solid.svg);
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+
+.container-img {
+    width: 1.5rem;
+    padding: 1rem;
+}
+
+
