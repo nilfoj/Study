@@ -1,0 +1,39 @@
+.banner {
+    background-color: var(--bg-color-third); 
+    color: var(--text-color-third);
+    text-align: center;
+    padding: 2.5rem 2rem;
+}
+
+
+.banner-title {
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+
+.banner-text {
+    font-weight: 500;
+    margin: 1.5rem;
+}
+
+
+.banner-search {
+    background-color: transparent;
+    border: 0.0625rem solid var(--bg-color-prima);
+    color: var(--text-color-third);
+    border-radius: 1.125rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+
+.banner-search::placeholder {
+    font-family: var(--font-prima);
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    color: var(--text-color-third);
+    background: url(../img/icons/magnifying-glass-solid.svg) no-repeat;
+    background-position: 1rem;
+}

@@ -1,7 +1,9 @@
 .main-header {
-    background-color: var(--br-color);
+    background-color: var(--bg-color-second);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 
 
@@ -15,9 +17,10 @@
     width: 1.5rem;
     height: 1.5rem;
     margin: 0.5rem;
-    background-image: url(../img/bars-solid.svg);
+    background-image: url(../img/icons/bars-solid.svg);
     display: inline-block;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 
@@ -27,3 +30,34 @@
 }
 
 
+.list-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.container-button:checked ~ .list-menu {
+    display: block;   
+}
+
+.container-button{
+    display: none;
+}
+
+.list-menu-title, 
+.list-menu-item {
+    padding: 1em;
+    background-color: var(--bg-color-prima);
+}
+
+.list-menu-title {
+    color: var(--text-color-prima);
+    font-weight: 500;
+}
+
+.list-menu-link {
+    color: var(--text-color-second);
+    text-transform: uppercase;
+    text-decoration: none;
+}

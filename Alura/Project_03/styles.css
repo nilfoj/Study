@@ -1,22 +1,22 @@
 @import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carousel.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 :root {
     
-    --br-color:#fff;
-
-    /*
-    
-    --primary-color-1:;
-    --primary-color-2:;
-
-    --secundary-color-1:;
-    --secundary-color-2:;
-    
-    */
+    --bg-color-prima:#fff;
+    --bg-color-second: #9f9f9f;
+    --bg-color-third: #00c8ff;
+    --text-color-prima: orange;
+    --text-color-second: blue;
+    --text-color-third: #fff;
+    --font-prima: "Inter";
 
 }
 
 
 body {
-    background-color: var(--br-color);
+    background-color: var(--bg-color-prima);
+    font-family: var(--font-prima);
 }

@@ -1,0 +1,10 @@
+.carousel {
+    color: var(--text-color-prima);
+    background-color: var(--bg-color-second);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.125em;
+    font-weight: 400;
+    padding: 1em 0 0.5em 0;
+
+}
