@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>Document</title>
 </head>
 
@@ -58,14 +59,49 @@
 
     <section class="carousel">
         <h2 class="carousel-title">Novos Lançamentos</h2>
+
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="img/figures/books/Liderança.svg" alt="Livro Liderança"></div>
+              <div class="swiper-slide"><img src="img/figures/books/Arquitetura.svg" alt="Livro de Arquitetura"></div>
+              <div class="swiper-slide"><img src="img/figures/books/Gestão.svg" alt="Livro de Gestão"></div>
+              <div class="swiper-slide"><img src="img/figures/books/Javascript.svg" alt="Livro de JavaScript"></div>
+              <div class="swiper-slide"><img src="img/figures/books/MetricasAgeis.svg" alt="Livro de Metricas Ageis"></div>
+            </div>
+          
+            <div class="swiper-pagination"></div>
+                  
+        </div>
+
+    </section>
+
+    <section class="card">
+        <div class="card-description"></div>
+            <div class="description">
+                <h3 class="description-title"> Talvez você se interesse por ...</h3>
+            </div>
     </section>
 
 
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <script>
 
+        const swiper = new Swiper(`.swiper`, {
+            spaceBetween: 10,
+            slidePerView: 3,
+            pagination: {
+                el: `.swiper-pagination`, 
+                type: `bullets`, 
+            },
+        });
+
+    </script>
 
 </body>
 </html>

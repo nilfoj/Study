@@ -6,7 +6,7 @@
 :root {
     
     --bg-color-prima:#fff;
-    --bg-color-second: #9f9f9f;
+    --bg-color-second: rgb(255, 244, 157);
     --bg-color-third: #00c8ff;
     --text-color-prima: orange;
     --text-color-second: blue;
@@ -20,3 +20,11 @@ body {
     background-color: var(--bg-color-prima);
     font-family: var(--font-prima);
 }
+
+
+.swiper {
+    width: 600px;
+    height: 300px;
+    margin: 1rem;
+}
+
