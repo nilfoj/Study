@@ -6,8 +6,8 @@
 :root {
     
     --bg-color-prima:#fff;
-    --bg-color-second: rgb(255, 244, 157);
-    --bg-color-third: #00c8ff;
+    --bg-color-second:#eaeaea;
+    --bg-color-third: #144568;
     --text-color-prima: orange;
     --text-color-second: blue;
     --text-color-third: #fff;

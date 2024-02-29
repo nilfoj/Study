@@ -1,0 +1,14 @@
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\List_Matriz\bin\Debug\net7.0\List_Matriz.exe
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\List_Matriz\bin\Debug\net7.0\List_Matriz.deps.json
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\List_Matriz\bin\Debug\net7.0\List_Matriz.runtimeconfig.json
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\List_Matriz\bin\Debug\net7.0\List_Matriz.dll
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\List_Matriz\bin\Debug\net7.0\List_Matriz.pdb
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\List_Matriz\obj\Debug\net7.0\List_Matriz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\List_Matriz\obj\Debug\net7.0\List_Matriz.AssemblyInfoInputs.cache
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\List_Matriz\obj\Debug\net7.0\List_Matriz.AssemblyInfo.cs
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\List_Matriz\obj\Debug\net7.0\List_Matriz.csproj.CoreCompileInputs.cache
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\List_Matriz\obj\Debug\net7.0\List_Matriz.dll
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\List_Matriz\obj\Debug\net7.0\refint\List_Matriz.dll
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\List_Matriz\obj\Debug\net7.0\List_Matriz.pdb
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\List_Matriz\obj\Debug\net7.0\List_Matriz.genruntimeconfig.cache
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\List_Matriz\obj\Debug\net7.0\ref\List_Matriz.dll

@@ -1,6 +1,8 @@
-.carousel {
+
+.carousel-title {
+    background-color: var(--bg-color-prima);
     color: var(--text-color-prima);
-    background-color: var(--bg-color-second);
+    padding: 1em;
     text-align: center;
     text-transform: uppercase;
     font-size: 1.125em;
@@ -8,3 +10,39 @@
     padding: 1em 0 0.5em 0;
 }
 
+.carousel {
+    background-color: var(--bg-color-second);  
+    text-align: center;
+}
+
+.carousel > .swiper {
+    padding: 0rem 0rem 5rem 0rem;
+}
+
+.card-description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-bottons {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.bottons img {
+    height: 2rem;
+    display: flex;
+    padding: 0.5rem;
+}
+
+.bottons {
+    display: flex;
+}
+
+.card {
+    background-color: var(--bg-color-prima);
+    box-shadow: 0px 4px  4px rgba(0, 0, 0, 25)0;
+    border-radius: 10px;   
+    margin: 1rem;
+    padding: 1rem;
+}
