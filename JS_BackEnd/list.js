@@ -47,3 +47,15 @@ const sala2 = sala.slice(sala.length/2);
 
 console.log(sala1);
 console.log(sala2);
+
+
+//Concatenar
+
+const salasJs = ["Maria","Joao","Ricardo"];
+const salaPython = ["Pedro","Paulo","Carlos"];
+
+const salasUnificadas = salaPython.concat(salasJs);
+
+console.log(salasUnificadas);
+
+
