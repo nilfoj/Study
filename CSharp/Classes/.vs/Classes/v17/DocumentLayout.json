@@ -1,0 +1,94 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nilfo\\OneDrive\\[OO]\\[OO] GitHub\\Study\\CSharp\\Classes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9077728E-188E-419B-A949-4C4159AF8961}|Classes.csproj|c:\\users\\nilfo\\onedrive\\[oo]\\[oo] github\\study\\csharp\\classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9077728E-188E-419B-A949-4C4159AF8961}|Classes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9077728E-188E-419B-A949-4C4159AF8961}|Classes.csproj|c:\\users\\nilfo\\onedrive\\[oo]\\[oo] github\\study\\csharp\\classes\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9077728E-188E-419B-A949-4C4159AF8961}|Classes.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9077728E-188E-419B-A949-4C4159AF8961}|Classes.csproj|c:\\users\\nilfo\\onedrive\\[oo]\\[oo] github\\study\\csharp\\classes\\class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9077728E-188E-419B-A949-4C4159AF8961}|Classes.csproj|solutionrelative:class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9077728E-188E-419B-A949-4C4159AF8961}|Classes.csproj|c:\\users\\nilfo\\onedrive\\[oo]\\[oo] github\\study\\csharp\\classes\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9077728E-188E-419B-A949-4C4159AF8961}|Classes.csproj|solutionrelative:class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nilfo\\OneDrive\\[OO]\\[OO] GitHub\\Study\\CSharp\\Classes\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\nilfo\\OneDrive\\[OO]\\[OO] GitHub\\Study\\CSharp\\Classes\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T02:16:15.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\nilfo\\OneDrive\\[OO]\\[OO] GitHub\\Study\\CSharp\\Classes\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "C:\\Users\\nilfo\\OneDrive\\[OO]\\[OO] GitHub\\Study\\CSharp\\Classes\\Class1.cs",
+              "RelativeToolTip": "Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T02:17:02.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class2.cs",
+              "DocumentMoniker": "C:\\Users\\nilfo\\OneDrive\\[OO]\\[OO] GitHub\\Study\\CSharp\\Classes\\Class2.cs",
+              "RelativeDocumentMoniker": "Class2.cs",
+              "ToolTip": "C:\\Users\\nilfo\\OneDrive\\[OO]\\[OO] GitHub\\Study\\CSharp\\Classes\\Class2.cs",
+              "RelativeToolTip": "Class2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T02:17:17.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class3.cs",
+              "DocumentMoniker": "C:\\Users\\nilfo\\OneDrive\\[OO]\\[OO] GitHub\\Study\\CSharp\\Classes\\Class3.cs",
+              "RelativeDocumentMoniker": "Class3.cs",
+              "ToolTip": "C:\\Users\\nilfo\\OneDrive\\[OO]\\[OO] GitHub\\Study\\CSharp\\Classes\\Class3.cs",
+              "RelativeToolTip": "Class3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T02:17:34.953Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
