@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharrp_Exercicios")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2cf0956c9fb38feac4282e22261eff1711ec0a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharrp_Exercicios")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharrp_Exercicios")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
