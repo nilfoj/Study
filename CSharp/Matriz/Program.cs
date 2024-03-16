@@ -79,12 +79,39 @@ Console.WriteLine();
 
 
 //Somando Coluna 1
+
 int somaColuna1 = 0;
 
-for (int j = 0; j < matriz.GetLength(2); j++)
+for (int j = 0; j < matriz.GetLength(1); j++)
 {
-    somaColuna1 += matriz[0, j];
+    somaColuna1 += matriz[j, 0];
 }
 
 Console.WriteLine(somaColuna1);
+Console.WriteLine();
+
+
+//Somando Coluna 1
+
+int somaColuna2 = 0;
+
+for (int j = 0; j < matriz.GetLength(1); j++)
+{
+    somaColuna2 += matriz[j, 1];
+}
+
+Console.WriteLine(somaColuna2);
+Console.WriteLine();
+
+
+//Soma Colune 3
+
+int somaColuna3 = 0;
+
+for (int j = 0; j < matriz.GetLength(1); j++)
+{
+    somaColuna3 += matriz[j, 2];
+}
+
+Console.WriteLine(somaColuna3);
 Console.WriteLine();
