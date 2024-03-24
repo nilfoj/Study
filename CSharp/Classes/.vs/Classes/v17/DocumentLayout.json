@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{9077728E-188E-419B-A949-4C4159AF8961}|Classes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9077728E-188E-419B-A949-4C4159AF8961}|Classes.csproj|c:\\users\\nilfo\\onedrive\\[oo]\\[oo] github\\study\\csharp\\classes\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9077728E-188E-419B-A949-4C4159AF8961}|Classes.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9077728E-188E-419B-A949-4C4159AF8961}|Classes.csproj|c:\\users\\nilfo\\onedrive\\[oo]\\[oo] github\\study\\csharp\\classes\\class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9077728E-188E-419B-A949-4C4159AF8961}|Classes.csproj|solutionrelative:class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9077728E-188E-419B-A949-4C4159AF8961}|Classes.csproj|c:\\users\\nilfo\\onedrive\\[oo]\\[oo] github\\study\\csharp\\classes\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9077728E-188E-419B-A949-4C4159AF8961}|Classes.csproj|solutionrelative:class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9077728E-188E-419B-A949-4C4159AF8961}|Classes.csproj|c:\\users\\nilfo\\onedrive\\[oo]\\[oo] github\\study\\csharp\\classes\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9077728E-188E-419B-A949-4C4159AF8961}|Classes.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\nilfo\\OneDrive\\[OO]\\[OO] GitHub\\Study\\CSharp\\Classes\\Class1.cs",
               "RelativeDocumentMoniker": "Class1.cs",
@@ -64,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Class2.cs",
               "DocumentMoniker": "C:\\Users\\nilfo\\OneDrive\\[OO]\\[OO] GitHub\\Study\\CSharp\\Classes\\Class2.cs",
               "RelativeDocumentMoniker": "Class2.cs",
@@ -72,11 +72,12 @@
               "RelativeToolTip": "Class2.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T02:17:17.715Z"
+              "WhenOpened": "2024-03-15T02:17:17.715Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Class3.cs",
               "DocumentMoniker": "C:\\Users\\nilfo\\OneDrive\\[OO]\\[OO] GitHub\\Study\\CSharp\\Classes\\Class3.cs",
               "RelativeDocumentMoniker": "Class3.cs",
@@ -84,7 +85,8 @@
               "RelativeToolTip": "Class3.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T02:17:34.953Z"
+              "WhenOpened": "2024-03-15T02:17:34.953Z",
+              "EditorCaption": ""
             }
           ]
         }
