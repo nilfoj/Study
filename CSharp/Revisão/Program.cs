@@ -39,6 +39,47 @@ else
     if (continuar == "s")
     {
         Console.WriteLine("Vamos continuar!");
+        Console.WriteLine();
+
+        int num02 = num00.Next(1, 22);
+        Console.WriteLine(num02);
+
+        Console.WriteLine();
+        if (num02 == 21)
+        {
+            Console.WriteLine("Parabéns você Vençeu!");
+        }
+
+        else if (num02 > 21)
+        {
+            Console.WriteLine("Você perdeu!");
+        }
+
+        else
+        {
+
+            Console.WriteLine($"Você deseja continuar: 'S' ou 'N'?");
+            Console.WriteLine($"A soma dos seus números são {num01 + num02}");
+            Console.WriteLine();
+            continuar = Console.ReadLine().Trim().ToLower();
+            sim = "s";
+            nao = "n";
+
+            if (continuar == "s")
+            {
+                
+                Console.WriteLine("Vamos continuar!");
+                Console.WriteLine();
+
+                int num03 = num00.Next(1, 22);
+                Console.WriteLine(num03);
+                Console.WriteLine();
+
+         
+            }
+            
+
+        }
     }
 
     else
