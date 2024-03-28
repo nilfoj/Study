@@ -12,3 +12,4 @@ C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\CSharrp_Exercicios\obj\Deb
 C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\CSharrp_Exercicios\obj\Debug\net7.0\CSharrp_Exercicios.pdb
 C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\CSharrp_Exercicios\obj\Debug\net7.0\CSharrp_Exercicios.genruntimeconfig.cache
 C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\CSharrp_Exercicios\obj\Debug\net7.0\ref\CSharrp_Exercicios.dll
+C:\Users\nilfo\OneDrive\[OO]\[OO] GitHub\Study\CSharp\CSharrp_Exercicios\obj\Debug\net7.0\CSharrp_Exercicios.sourcelink.json

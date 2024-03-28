@@ -21,7 +21,9 @@ namespace Exercicio
             //013RSalarial();
             //14CTemperatura();
             //015ACarros();
-            QNumero();
+            //QNumero();
+
+            EMatriz02();
         }
 
         static void Hello()
@@ -214,6 +216,83 @@ namespace Exercicio
             Console.WriteLine($"O valor digitado foi {numero} e a sua porção inteira é {(int)Math.Truncate(numero)}.");
 
             Console.ReadKey();
+        }
+
+        static void EMatriz()
+        {
+
+            Console.Clear();
+            Console.WriteLine("Hello Word!");
+
+
+            string[] exemplo = new string [3];
+
+            exemplo[0] = "A1";
+            exemplo[1] = "A2";
+            exemplo[2] = "A3";
+
+            for (int i = 0; i < exemplo.GetLength(0); i++)
+            {
+                Console.WriteLine(exemplo[i]);
+            }
+
+
+            //int[] matriz01 = new int [4];
+
+            int[] matriz01 = {1, 2, 3, 4};
+
+        }
+
+
+        static void EMatriz02()
+        {
+
+            //Passo 1 - Receber o tamanho da Lista e seus nomes. 
+
+            Console.Clear();
+            Console.WriteLine("Digite a quantidade de alunos(as): ");
+
+            int quantidade = int.Parse(Console.ReadLine());
+            string[] alunos = new string[quantidade];
+
+            Console.WriteLine("Digite os nome:");
+            for (int i = 0; i < quantidade; i++)
+            {
+                string nome = Console.ReadLine();
+                alunos[i] = nome;
+            }
+
+
+            //Passo 2 - Receber as notas e fazer a média.\
+
+            Console.Clear();
+            Console.WriteLine("Digite as notas dos alunos(a): ");
+
+            
+            int[] boletim = new int[3];
+
+
+            for (int i = 0; i < quantidade; i++)
+            {
+                Console.WriteLine(alunos[i]);
+                for (int j = 0; j < boletim.GetLength(0); j++)
+                {
+                    int notas = int.Parse(Console.ReadLine());
+                    boletim[j] = notas;
+                }
+            }
+
+            
+            Console.Clear();
+            for (int i = 0; i < quantidade; i++)
+            {
+                Console.WriteLine(alunos[i]);
+                for (int j = 0; j < boletim.GetLength(0); j++)
+                {
+                    Console.WriteLine(boletim[j]);
+                }
+            }
+
         }
     }
 }
